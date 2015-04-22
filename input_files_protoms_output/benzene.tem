@@ -1,0 +1,47 @@
+mode clj
+#parameter atm proton-num charge(|e|) sigma(A) epsilon(kcal mol-1) 
+par 3000    ca    06    -0.13000    3.39967    0.08600
+par 3001    ca    06    -0.13000    3.39967    0.08600
+par 3002    ca    06    -0.13000    3.39967    0.08600
+par 3003    ca    06    -0.13000    3.39967    0.08600
+par 3004    ca    06    -0.13000    3.39967    0.08600
+par 3005    ca    06    -0.13000    3.39967    0.08600
+par 3006    ha    01    0.13000    2.59964    0.01500
+par 3007    ha    01    0.13000    2.59964    0.01500
+par 3008    ha    01    0.13000    2.59964    0.01500
+par 3009    ha    01    0.13000    2.59964    0.01500
+par 3010    ha    01    0.13000    2.59964    0.01500
+par 3011    ha    01    0.13000    2.59964    0.01500
+mode template
+solute BNZ
+info translate 0.250 rotate 5.000
+atom   C4 BNZ 3000 3000  DM3 DUM  DM2 DUM  DM1 DUM
+atom   C5 BNZ 3001 3001   C4 BNZ  DM3 DUM  DM2 DUM
+atom   C6 BNZ 3002 3002   C5 BNZ   C4 BNZ  DM3 DUM
+atom   C1 BNZ 3003 3003   C6 BNZ   C5 BNZ   C4 BNZ
+atom   C2 BNZ 3004 3004   C1 BNZ   C6 BNZ   C5 BNZ
+atom   C3 BNZ 3005 3005   C2 BNZ   C1 BNZ   C6 BNZ
+atom   H3 BNZ 3006 3006   C3 BNZ   C4 BNZ   C2 BNZ
+atom   H4 BNZ 3007 3007   C4 BNZ   C5 BNZ   C3 BNZ
+atom   H5 BNZ 3008 3008   C5 BNZ   C6 BNZ   C4 BNZ
+atom   H6 BNZ 3009 3009   C6 BNZ   C1 BNZ   C5 BNZ
+atom   H1 BNZ 3010 3010   C1 BNZ   C6 BNZ   C2 BNZ
+atom   H2 BNZ 3011 3011   C2 BNZ   C3 BNZ   C1 BNZ
+bond   C5 BNZ   C4 BNZ
+bond   C6 BNZ   C5 BNZ
+bond   C1 BNZ   C6 BNZ
+bond   C2 BNZ   C1 BNZ
+bond   C3 BNZ   C2 BNZ
+bond   H3 BNZ   C3 BNZ
+bond   H4 BNZ   C4 BNZ
+bond   H5 BNZ   C5 BNZ
+bond   H6 BNZ   C6 BNZ
+bond   H1 BNZ   C1 BNZ
+bond   H2 BNZ   C2 BNZ
+bond   C3 BNZ   C4 BNZ
+angle   H3 BNZ   C3 BNZ   C4 BNZ flex 0.186
+angle   H4 BNZ   C4 BNZ   C5 BNZ flex 0.186
+angle   H5 BNZ   C5 BNZ   C6 BNZ flex 0.186
+angle   H6 BNZ   C6 BNZ   C1 BNZ flex 0.186
+angle   H1 BNZ   C1 BNZ   C6 BNZ flex 0.186
+angle   H2 BNZ   C2 BNZ   C3 BNZ flex 0.186

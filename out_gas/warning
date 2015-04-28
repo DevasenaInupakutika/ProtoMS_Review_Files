@@ -1,0 +1,11 @@
+ There was a problem opening the parameter file $PROTOMSHOME/parameter/amber99.ff
+ There was a problem opening the parameter file $PROTOMSHOME/parameter/solvents.ff
+ There was a problem opening the parameter file $PROTOMSHOME/parameter/amber99-residues.ff
+ There was a problem opening the parameter file $PROTOMSHOME/parameter/gaff14.ff
+Could not find bond parameter between amber atoms ca-ca. Will treat this bond as a dummy. This bond should not be sampled!
+Could not find bond parameter between amber atoms ca-ha. Will treat this bond as a dummy. This bond should not be sampled!
+Could not find angle parameter between amber atoms ha-ca-ca. Will treat this angle as a dummy. This angle should not be sampled!
+Could not find angle parameter between amber atoms ca-ca-ca. Will treat this angle as a dummy. This angle should not be sampled!
+Could not find dihedral parameter between amber atoms ca-ca-ca-ca. Will treat this dihedral as a dummy. This dihedral should not be sampled!
+Could not find dihedral parameter between amber atoms ca-ca-ca-ha. Will treat this dihedral as a dummy. This dihedral should not be sampled!
+Could not find dihedral parameter between amber atoms ha-ca-ca-ha. Will treat this dihedral as a dummy. This dihedral should not be sampled!

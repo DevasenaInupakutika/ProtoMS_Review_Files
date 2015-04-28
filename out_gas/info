@@ -1,0 +1,68 @@
+protoms3 started at 16:43:05 on the 28/ 4/2015
+ Non-bonded cutoff =    10.000000000000000       angstroms.
+ Non-bonded cutoff feathered over the last   0.50000000000000000       angstroms.
+Using protein-residue/solute-molecule/solvent-molecule cut-off
+#########################################################
+ Reading parameter file $PROTOMSHOME/parameter/amber99.ff
+#########################################################
+##########################################################
+ Reading parameter file $PROTOMSHOME/parameter/solvents.ff
+##########################################################
+##################################################################
+ Reading parameter file $PROTOMSHOME/parameter/amber99-residues.ff
+##################################################################
+########################################################
+ Reading parameter file $PROTOMSHOME/parameter/gaff14.ff
+########################################################
+########################################################
+ Reading parameter file tutorial/input_files/benzene.tem
+########################################################
+Loaded    1 templates,    0 override templates,   12 clj parameters
+and    0/   0/   0/   0 bond/angle/dihedral/urey-bradley parameters.
+and    0/   0 surface/born parameters.
+ Opening solute file tutorial/input_files/benzene.pdb
+ Loading solute 'bnz'
+ Using concentration correction
+ Simulation consists of            0  protein chains,            1  solute molecules and            0  solvent molecules
+ Fitting molecule templates to bnz
+#############################################
+ Charge on solute bnz =    0.0000000000000000
+#############################################
+ Assigning non-bonded atoms for solute            1
+ Finished fitting template...
+########################################
+Using no boundary conditions (gas-phase)
+########################################
+ Simulation temperature =    25.000000000000000       C, (   298.14999999999998       K)
+ Got initial random number seed      4981659
+############################################
+ Sanitised random number seed =      4981659
+############################################
+Starting simulation at 16:43:05 on the 28/ 4/2015
+##########################################
+Performing simulation at lambda =    0.000
+##########################################
+There are   12 CLJ parameter types used in this simulation.
+ Pre-calculating all the charge and LJ pairs...
+ Running chunk            1
+ New displacements for solute            1  translation=   0.0000000000000000       rotation=   0.0000000000000000
+ Running chunk            2
+Move probabilies: Protein =        0 Solute =     1000 Solvent =        0 Insertion =        0
+                  Titrate =        0 Theta  =        0 Volume  =        0 Deletion  =        0
+                  Rotamer =        0 Sample =        0 GCsolute =        0 SolTheta =        0
+############################################
+ Requested         4000  steps of simulation
+############################################
+ Calculating the initial total energy from scratch...
+Total Energy =     6.020756 (    6.020756 |     6.020756)
+##########################
+Printing PDB of the system
+##########################
+ Redirecting PDB to all.pdb
+####################
+Writing restart file
+####################
+Resetting free energy average to zero.
+ Data collection complete. Attempted/accepted moves         4000        3999
+ Simulation shutting down...
+protoms3 completed at 16:43:07 on the 28/ 4/2015

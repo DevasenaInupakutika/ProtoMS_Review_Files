@@ -1,0 +1,12 @@
+module load hg 
+module add hg  
+module load gcc/4.9.1
+module add gcc/4.9.1
+module load openmpi/1.8.3/gcc
+module add openmpi/1.8.3/gcc
+module load python/2.7.5
+module add python/2.7.5
+module load cmake/2.8.10.2 
+module add cmake/2.8.10.2
+module add amber/12.0 
+module load amber/12.0
